@@ -11,5 +11,5 @@ else
   gem 'vagrant-spec', git: "https://github.com/hashicorp/vagrant-spec.git", branch: :main
 end
 
-# required for JUnit test formatting text 
+# required for JUnit test formatting  
 gem 'rspec_junit_formatter'
