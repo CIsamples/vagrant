@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_CIsamples_vagrant_1702596038764-push-trigger-input-set
+  identifier: Build_CIsamples_vagrant_1702596038764pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: test12344
+  pipeline:
+    identifier: Build_CIsamples_vagrant_1702596038764
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
