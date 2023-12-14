@@ -1,0 +1,33 @@
+pipeline:
+  identifier: Build_CIsamples_vagrant_1702596038764
+  name: Build vagrant
+  orgIdentifier: default
+  projectIdentifier: test12344
+  properties:
+    ci:
+      codebase:
+        build: <+input>
+        connectorRef: account.github
+        repoName: CIsamples/vagrant
+  stages:
+    - stage:
+        identifier: build
+        name: build
+        spec:
+          cloneCodebase: true
+          execution:
+            steps:
+              - step:
+                  identifier: echo
+                  name: echo
+                  spec:
+                    command: echo hello world
+                  timeout: ""
+                  type: Run
+          platform:
+            arch: Amd64
+            os: Linux
+          runtime:
+            spec: {}
+            type: Cloud
+        type: CI
