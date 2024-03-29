@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_CIsamples_vagrant_1711737460212-pr-trigger-input-set
+  identifier: Build_CIsamples_vagrant_1711737460212prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Nofar
+  pipeline:
+    identifier: Build_CIsamples_vagrant_1711737460212
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
