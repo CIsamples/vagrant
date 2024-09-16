@@ -1,11 +1,11 @@
-# Copyright (c) HashiCorp, Inc.
+# Copyright (c) HashiCorp, Inc. 
 # SPDX-License-Identifier: BUSL-1.1
 
 module Vagrant
   module Plugin
     module V2
-      # This is the container class for the components of a single plugin.
-      # This allows us to separate the plugin class which defines the
+      # This is the container class for the components of a single plugin.  
+      # This allows us to separate the plugin class which defines the  
       # components, and the actual container of those components. This
       # removes a bit of state overhead from the plugin class itself.
       class Components
