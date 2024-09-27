@@ -1,5 +1,5 @@
 # Copyright (c) HashiCorp, Inc.
-# SPDX-License-Identifier: BUSL-1.1
+# SPDX-License-Identifier: BUSL-1.1  
 
 source "https://rubygems.org"
 
@@ -11,5 +11,5 @@ else
   gem 'vagrant-spec', git: "https://github.com/hashicorp/vagrant-spec.git", branch: :main
 end
 
-# required for JUnit test formatting
+# required for JUnit test formatting  
 gem 'rspec_junit_formatter'
